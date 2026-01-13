@@ -90,3 +90,6 @@ pip install \
   "pypdf>=4.2.0" \
   "gradio>=4.0.0" \
   "pymupdf"
+'''
+
+sfdgdf
