@@ -62,7 +62,7 @@ rag_langchain/
 
 ---
 
-## 4) Cài đặt môi trường
+## 4. Cài đặt môi trường
 
 ### 4.1 Yêu cầu
 - Python: 3.10–3.12 (khuyến nghị 3.10/3.11 để tương thích rộng)
@@ -103,7 +103,7 @@ Loại ký tự control rác
 
 Gom khoảng trắng thừa, dòng thừa
 
-5.2. Chunking
+#### 5.2. Chunking
 
 Dùng RecursiveCharacterTextSplitter:
 
@@ -152,10 +152,10 @@ Retriever chuẩn của LangChain (Top-k context)
 Chroma similarity_search_with_score để hiển thị score
 
 Ví dụ format context:
-
+```bash
 [file.pdf | page 12 | score=0.1234]
 <nội dung chunk ...>
-
+```
 
 Lưu ý: với Chroma, score thường là distance (thấp hơn = giống hơn).
 
@@ -181,7 +181,7 @@ Upload PDF mới + ingest incremental
 
 Tab “Phương pháp” (giải thích pipeline)
 
-8.1. Preview PDF nhiều trang + Search keyword (nâng cao)
+#### 8.1. Preview PDF nhiều trang + Search keyword (nâng cao)
 
 Có thể render PDF → ảnh (PNG) và hiển thị gallery nhiều trang, hỗ trợ:
 
@@ -195,7 +195,7 @@ Highlight keyword trên ảnh preview
 
 Đánh giá theo 3 tầng:
 
-9.1. Đánh giá Retrieval (quan trọng nhất)
+#### 9.1. Đánh giá Retrieval (quan trọng nhất)
 
 Gợi ý metrics:
 
@@ -215,7 +215,7 @@ Với mỗi câu, gán nhãn “chunk/trang đúng” (ít nhất 1 chunk chứa
 
 Tính metrics theo retrieval results
 
-9.2. Đánh giá câu trả lời (Groundedness)
+#### 9.2. Đánh giá câu trả lời (Groundedness)
 
 Chấm theo rubric 0–2:
 
@@ -225,7 +225,7 @@ Chấm theo rubric 0–2:
 
 0: hallucination (bịa)
 
-9.3. End-to-end (Human evaluation)
+#### 9.3. End-to-end (Human evaluation)
 
 Task success
 
