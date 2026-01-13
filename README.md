@@ -45,7 +45,9 @@ Upload PDF → Copy vào kho → Hash check (chống trùng)
 ---
 
 ## 2. Cấu trúc thư mục dự án
+
 ```bash
+
 rag_langchain/
 ├─ data_source/
 │ ├─ generative_ai/ # kho PDF chính (bạn copy PDF vào đây)
