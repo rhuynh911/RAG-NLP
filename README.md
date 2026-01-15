@@ -185,15 +185,6 @@ Upload PDF mới + ingest incremental
 
 Tab “Phương pháp” (giải thích pipeline)
 
-#### 8.1. Preview PDF nhiều trang + Search keyword (nâng cao)
-
-Có thể render PDF → ảnh (PNG) và hiển thị gallery nhiều trang, hỗ trợ:
-
-Search keyword trong PDF
-
-Nhảy tới trang match
-
-Highlight keyword trên ảnh preview
 
 ### 9. Kiểm tra tính chính xác (Evaluation)
 
